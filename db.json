@@ -1,0 +1,398 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@demo.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Priya Nair",
+      "email": "customer@demo.com",
+      "password": "1234",
+      "role": "customer"
+    },
+    {
+      "id": 3,
+      "name": "Rajesh Kumar",
+      "email": "rajesh@demo.com",
+      "password": "1234",
+      "role": "provider"
+    },
+    {
+      "id": 4,
+      "name": "Anil Thomas",
+      "email": "anil@demo.com",
+      "password": "1234",
+      "role": "provider"
+    },
+    {
+      "id": 5,
+      "name": "CoolBreeze AC",
+      "email": "cool@demo.com",
+      "password": "1234",
+      "role": "provider"
+    },
+    {
+      "id": 6,
+      "name": "Sneha Menon",
+      "email": "sneha@demo.com",
+      "password": "1234",
+      "role": "provider"
+    },
+    {
+      "id": 7,
+      "name": "SparkleClean",
+      "email": "sparkle@demo.com",
+      "password": "1234",
+      "role": "provider"
+    },
+    {
+      "id": 8,
+      "name": "Biju Carpenter",
+      "email": "biju@demo.com",
+      "password": "1234",
+      "role": "provider"
+    }
+  ],
+  "providers": [
+    {
+      "id": 1,
+      "userId": 3,
+      "name": "Rajesh Kumar",
+      "categoryId": 1,
+      "location": "Kochi",
+      "price": 400,
+      "experience": 8,
+      "about": "Licensed electrician for wiring, fan and switchboard work.",
+      "approved": true,
+      "slots": [
+        "09:00",
+        "11:00",
+        "14:00",
+        "16:00"
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "name": "Anil Thomas",
+      "categoryId": 2,
+      "location": "Kakkanad",
+      "price": 350,
+      "experience": 6,
+      "about": "Quick leak fixing, bathroom fittings and pipe repair.",
+      "approved": true,
+      "slots": [
+        "10:00",
+        "12:00",
+        "15:00"
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "name": "CoolBreeze AC",
+      "categoryId": 3,
+      "location": "Edappally",
+      "price": 600,
+      "experience": 10,
+      "about": "AC installation, gas refill and servicing for all brands.",
+      "approved": true,
+      "slots": [
+        "09:00",
+        "13:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 6,
+      "name": "Sneha Menon",
+      "categoryId": 7,
+      "location": "Thrissur",
+      "price": 300,
+      "experience": 4,
+      "about": "Maths and science tutor for classes 8 to 12.",
+      "approved": true,
+      "slots": [
+        "16:00",
+        "17:00",
+        "18:00"
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 7,
+      "name": "SparkleClean",
+      "categoryId": 4,
+      "location": "Kochi",
+      "price": 500,
+      "experience": 5,
+      "about": "Deep cleaning for homes, kitchens and bathrooms.",
+      "approved": true,
+      "slots": [
+        "08:00",
+        "11:00",
+        "14:00"
+      ]
+    },
+    {
+      "id": 6,
+      "userId": 8,
+      "name": "Biju Carpenter",
+      "categoryId": 5,
+      "location": "Kozhikode",
+      "price": 450,
+      "experience": 12,
+      "about": "Custom furniture, doors and repairs.",
+      "approved": false,
+      "slots": [
+        "09:00",
+        "14:00"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "providerId": 1,
+      "title": "Fan installation",
+      "charge": 300
+    },
+    {
+      "id": 2,
+      "providerId": 1,
+      "title": "House wiring check",
+      "charge": 800
+    },
+    {
+      "id": 3,
+      "providerId": 2,
+      "title": "Leak repair",
+      "charge": 350
+    },
+    {
+      "id": 4,
+      "providerId": 3,
+      "title": "AC service",
+      "charge": 700
+    },
+    {
+      "id": 5,
+      "providerId": 4,
+      "title": "Maths tuition (1 hour)",
+      "charge": 300
+    },
+    {
+      "id": 6,
+      "providerId": 5,
+      "title": "Full house cleaning",
+      "charge": 1500
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electrical",
+      "icon": "⚡"
+    },
+    {
+      "id": 2,
+      "name": "Plumbing",
+      "icon": "🚰"
+    },
+    {
+      "id": 3,
+      "name": "AC Repair",
+      "icon": "❄️"
+    },
+    {
+      "id": 4,
+      "name": "House Cleaning",
+      "icon": "🧹"
+    },
+    {
+      "id": 5,
+      "name": "Carpentry",
+      "icon": "🪚"
+    },
+    {
+      "id": 6,
+      "name": "Painting",
+      "icon": "🎨"
+    },
+    {
+      "id": 7,
+      "name": "Home Tuition",
+      "icon": "📚"
+    },
+    {
+      "id": 8,
+      "name": "Laptop Repair",
+      "icon": "💻"
+    },
+    {
+      "id": 9,
+      "name": "Appliance Repair",
+      "icon": "🔧"
+    },
+    {
+      "id": 10,
+      "name": "Gardening",
+      "icon": "🌿"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "customerId": 2,
+      "customerName": "Priya Nair",
+      "providerId": 1,
+      "providerName": "Rajesh Kumar",
+      "service": "Fan installation",
+      "price": 300,
+      "date": "2026-10-20",
+      "time": "09:00",
+      "status": "Completed",
+      "reviewed": true
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "customerName": "Priya Nair",
+      "providerId": 3,
+      "providerName": "CoolBreeze AC",
+      "service": "AC service",
+      "price": 700,
+      "date": "2026-10-25",
+      "time": "13:00",
+      "status": "Completed",
+      "reviewed": true
+    },
+    {
+      "id": 3,
+      "customerId": 2,
+      "customerName": "Priya Nair",
+      "providerId": 4,
+      "providerName": "Sneha Menon",
+      "service": "Maths tuition (1 hour)",
+      "price": 300,
+      "date": "2026-12-01",
+      "time": "16:00",
+      "status": "Rejected",
+      "reviewed": false
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "providerId": 1,
+      "customerName": "Priya Nair",
+      "rating": 5,
+      "comment": "On time and very neat work!"
+    },
+    {
+      "id": 2,
+      "providerId": 3,
+      "customerName": "Priya Nair",
+      "rating": 4,
+      "comment": "Good service, a little late."
+    }
+  ],
+  "notifications": [
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 11:50:57 am",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 11:50:58 am",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 11:50:59 am",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 11:51:16 am",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 11:51:17 am",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 11:51:18 am",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 11:51:22 am",
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 11:51:27 am",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 11:51:27 am",
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Rejected",
+      "date": "15/11/2026, 11:57:04 am",
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Rejected",
+      "date": "15/11/2026, 11:57:05 am",
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 11:57:17 am",
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 11:57:18 am",
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "message": "Your booking with Sneha Menon on 2026-12-01 is now: Accepted",
+      "date": "15/11/2026, 12:03:45 pm",
+      "id": 14
+    }
+  ],
+  "favourites": [
+    {
+      "userId": 2,
+      "providerId": 1,
+      "id": 1
+    }
+  ]
+}
